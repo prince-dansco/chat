@@ -1,0 +1,263 @@
+* {
+    list-style-type: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+:root {
+
+    --Pale-Violet: hsl(276, 100%, 81%);
+    --Moderate-Violet: hsl(276, 55%, 52%);
+    --Desaturated-Dark-Violet: hsl(271, 15%, 43%);
+    --Grayish-Blue: hsl(206, 6%, 79%);
+    --Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%);
+    --Dark-Grayish-Violet: hsl(270, 7%, 64%);
+    --Light-Magenta: hsl(293, 100%, 63%);
+    --Light-Violet: hsl(264, 100%, 61%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grayish-Violet: hsl(270, 20%, 96%);
+    --Very-Dark-Desaturated-Viole: hsl(271, 36%, 24%);
+    --Very-Light-Magenta: hsl(289, 100%, 72%);
+
+
+}
+
+body {
+    background-color: var(--Light-Grayish-Violet);
+    position: relative;
+    padding: 25px;
+}
+
+.bg-top {
+    background-color: var(--Light-Violet);
+    background-image: linear-gradient(to top  var(--Light-Violet), var(--Light-Magenta));
+    height: 80%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 300px 0;
+    z-index: -1;
+    max-width: 340px;
+
+}
+
+.main {
+    background-color: var(--White);
+    height: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 340px;
+    align-items: center;
+    justify-content: center;
+    margin:23px auto;
+
+}
+
+.sub-main>img {
+    width: 20%;
+    border-radius: 60%;
+}
+
+.sub-main>p {
+    font-size: 11px;
+}
+.sub-main h4{
+    color:var(--White);
+}
+span{
+    color: var(--Dark-Grayish-Violet);
+}
+
+.sub-main {
+    position: relative;
+    background-color: blueviolet;
+    background-image: linear-gradient(to right, blueviolet, var(--Light-Magenta));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px 25px 0 0;
+    padding: 20px;
+    gap: 12px;
+}
+
+.white {
+    background-color: white;
+    border-radius: 4.5rem;
+    position: absolute;
+    top: -15px;
+    width: 60%;
+    height: 30%;
+    left: 53px;
+    right: 0;
+}
+
+.fa-less-than {
+    position: absolute;
+    left: 7px;
+    top: 50px;
+    color: var(--White);
+}
+
+.fa-ellipsis-vertical {
+    color: var(--White);
+    position: absolute;
+    right: 9px;
+    top: 50px;
+}
+
+span {
+    display: block;
+}
+
+.comment-section {
+    background-color: var(--Light-Grayish-Violet);
+    margin-top: -10px;
+    padding: 10px 8px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.list-1>p {
+    background-color: var(--Grayish-Blue);
+    border-radius: 1rem;
+    align-items: flex-start;
+    text-align: start;
+    font-size: 14px;
+    width: 70%;
+    padding: 15px;
+    color:var(--Moderate-Violet);
+}
+
+.list-2 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.list-2 img {
+    width: 20%;
+    border-radius: 20px;
+}
+
+.pa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+
+}
+
+.pa>p {
+    background-color: var(--White);
+    border-radius: 1rem;
+    display: flex;
+    color: black;
+    font-size: 14px;
+    width: 65%;
+    padding: 15px;
+    color: var(--Desaturated-Dark-Violet);
+}
+
+.content>p {
+    background-color: var(--Grayish-Blue);
+    border-radius: 1rem;
+    align-items: flex-start;
+    text-align: start;
+    font-size: 14px;
+    width: 74%;
+    padding: 13px;
+    color: var(--Moderate-Violet);
+}
+
+.color {
+    position: relative;
+    background:  hsl(289, 100%, 72%);
+    background-image: linear-gradient(to right,  hsl(289, 100%, 72%), blueviolet);
+    border-radius: 1rem;
+    font-size: 14px;
+    width: 72%;
+    padding: 15px;
+    text-align: center;
+    color: var(--Light-Grayish-Violet);
+}
+
+.span {
+    position: absolute;
+    top: 17px;
+    left: 8px; 
+    color: var(--Light-Magenta);
+
+}
+
+strong {
+    color: var(--White);
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+form {
+    position: relative;
+}
+
+input {
+    padding: 15px;
+    border-radius: 1rem;
+    width: 97%;
+}
+
+button {
+    position: absolute;
+    background-color: black;
+    color: var(--White);
+    top: 5px;
+    right: 15px;
+    border-radius: 50%;
+    padding: 9px;
+}
+.author{
+    text-align: center;
+    margin-top: 50px;
+}
+.bg-bottom{
+    background-color: var(--Grayish-Blue);
+    height: 22%;
+    width: 29.5%;
+    position: absolute;
+    bottom: 0;
+    left: 234px;
+    border-radius:300px 0 0 0;
+    z-index: -1;
+}
+@media only screen and (min-width: 600px) {
+    .container{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        gap: 35px;
+    }
+    .main{
+        margin: 60px 40px;
+    }
+    .bg-bottom{
+        background-color: var(--Grayish-Blue);
+        height: 40%;
+        width: 55%;
+        position: absolute;
+        bottom: 190px;
+        left: 770px;
+        border-radius: 0 0 0 300px;
+        rotate: 90deg;
+        z-index: -1;
+    }
+    .author{
+        text-align: start;
+        width: 27%;
+       
+    }
+    .author>p{
+        font-size: 18px;
+        color: var(--Desaturated-Dark-Violet);
+    }
+}
